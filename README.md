@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Documentação do WebContacts - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Visão Geral
 
-Currently, two official plugins are available:
+Visão geral do projeto, um pouco das tecnologias usadas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [NodeJS](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
 
-## Expanding the ESLint configuration
+A URL base da aplicação:
+http://localhost:5173
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Figma
+- [link do figma](https://www.figma.com/file/BBBApHnaahF2wJhdOtyoCL/WebContacts?type=design&node-id=4202%3A45&mode=design&t=UVNjUEjyWKpOXuPp-1)
 
-- Configure the top-level `parserOptions` property like this:
+## 2. Início Rápido
+[ Voltar para o topo ](#tabela-de-conteúdos)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2.1. Instalando Dependências
+
+Clone o projeto em sua máquina e instale as dependências com o comando:
+
+-- $ npm i 
+
+### 2.2. Rodando o server do projeto
+
+##### Para rodar o server do frontend, o server do backend precisar está em funcionamento!
+
+Rode o server do projeto:
+
+-- $ npm run dev 
+
